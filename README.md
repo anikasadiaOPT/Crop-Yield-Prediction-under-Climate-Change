@@ -5,7 +5,7 @@
 ## Data collection
 
 Sources
-- FAOSTAT — country-level crop statistics (production, area, yield).
+- FAOSTAT — country-level crop statistics (production, area, yield).[https://www.fao.org/faostat/en/#data/QCL]
 - ECMWF (ERA5 / ERA5‑Land) — gridded climate predictors (temperature, precipitation, soil moisture, radiation), aggregated to monthly/seasonal.
 
 Key processing (short)
@@ -17,5 +17,6 @@ Important
 - Processed data, exact download queries, and preprocessing scripts are in /data and /scripts (provenance logged).
 - Always cite FAOSTAT and ECMWF/ERA5 and follow their licensing/attribution.
 ```
+
 
 
