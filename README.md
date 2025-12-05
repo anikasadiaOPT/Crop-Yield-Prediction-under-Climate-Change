@@ -56,15 +56,45 @@ Processed data and code licensing
 
 Folder structure (recommended)
 ```md
-📁 data/
- ├── 📁 raw/  
- ├── 📁 processed/  
-📁 scripts/  
-📁 notebooks/  
-📁 src/  
-📁 docs/  
-📄 LICENSE  
-📄 README.md
+climate-agriculture-shock-recovery-atlas/
+├── data/
+│   ├── raw/              # Never touch after download
+│   ├── processed/        # Intermediate cleaned data
+│   └── final/            # Analysis-ready datasets
+├── notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_shock_detection.ipynb
+│   ├── 03_recovery_analysis.ipynb
+│   └── 04_visualization.ipynb
+├── src/
+│   ├── data/
+│   │   ├── download.py
+│   │   ├── clean.py
+│   │   └── validate.py
+│   ├── analysis/
+│   │   ├── shock_detection.py
+│   │   ├── recovery_metrics.py
+│   │   └── statistical_tests.py
+│   ├── visualization/
+│   │   └── plots.py
+│   └── utils/
+│       └── helpers.py
+├── tests/               # YES, write tests
+│   └── test_shock_detection.py
+├── outputs/
+│   ├── figures/
+│   ├── tables/
+│   └── maps/
+├── docs/
+│   ├── methodology.md
+│   ├── data_dictionary.md
+│   └── findings.md
+├── app/                # Dashboard code
+│   └── streamlit_app.py
+├── requirements.txt
+├── environment.yml
+├── README.md
+└── .gitignore
 ```
 
 Processing overview (high level)
@@ -107,6 +137,7 @@ Acknowledgements
 License
 - Code: MIT (see LICENSE)
 - Data: subject to provider licenses — see DATA_LICENSE.md for details.
+
 
 
 
