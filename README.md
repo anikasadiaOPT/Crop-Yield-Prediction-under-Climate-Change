@@ -90,20 +90,24 @@ Preferred citation for the repository (see CITATION.cff):
 Contributing
 See CONTRIBUTING.md for the contribution process, coding style, and tests.
 
-Code of conduct
+Code of conduct:
+
 This project follows the Contributor Covenant Code of Conduct. See CODE_OF_CONDUCT.md.
 
-Contact
+Contact:
+
 Repo owner: anikasadiaOPT
-For questions about data access or licensing, please open an issue.
+If you have questions about data access or licensing, please open an issue.
 
 Acknowledgements
+
 - FAO/FAOSTAT for country-level agricultural statistics.
 - ECMWF / Copernicus for ERA5 and ERA5-Land reanalysis datasets.
 
 License
 - Code: MIT (see LICENSE)
 - Data: subject to provider licenses — see DATA_LICENSE.md for details.
+
 
 
 
