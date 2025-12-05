@@ -1,4 +1,4 @@
-﻿# Crop Yield Prediction under Climate Change
+﻿# Climate Shock-Recovery Atlas for Global Agriculture 
 
 
 ```markdown
@@ -46,6 +46,7 @@ Important
 - Processed data, exact download queries, and preprocessing scripts are in /data and /scripts (provenance logged).
 - Always cite FAOSTAT and ECMWF/ERA5 and follow their licensing/attribution.
 ```
+
 
 
 
